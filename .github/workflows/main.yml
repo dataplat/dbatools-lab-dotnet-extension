@@ -24,5 +24,5 @@ jobs:
       - run: npm install
       - uses: lannonbr/vsce-action@master
         with:
-          working-directory: ../../dbatools-lab-dotnet
+          entryPoint: ../../dbatools-lab-dotnet
           args: "package"
