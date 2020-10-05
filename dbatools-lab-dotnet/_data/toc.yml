@@ -1,0 +1,51 @@
+- title: SetUp And Introduction
+  url: SetUp-and-Introduction/readme
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: Create Containers
+    url: setup-and-introduction/00-createcontainers
+  - title: Introduction
+    url: setup-and-introduction/01-introduction
+- title: Backups and Restore
+  url: Backups-and-Restore/readme
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: Simple Backups and Restores
+    url: backups-and-restore/02-backupsrestores
+- title: SQL Agent
+  url: SQL-Agent/readme
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: Agent Jobs
+    url: sql-agent/06-agentjobs
+- title: Availability Groups
+  url: availability-groups/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Simple Availability Groups
+    url: availability-groups/03availabilitygroups 
+- title: Security
+  url: Security/readme
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: Logins and Users
+    url: security/04-loginsandusers
+- title: Management
+  url: Management/readme
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: Extended Events
+    url: management/05-extendedevents
+- title: Teardown
+  url: Teardown/readme
+  not_numbered: true
+  expand_sections: true
+  sections: 
+  - title: Clean up containers and files
+    url: teardown/99-cleanupcontainers

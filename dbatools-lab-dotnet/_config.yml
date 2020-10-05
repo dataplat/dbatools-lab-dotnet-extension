@@ -1,0 +1,4 @@
+# Book settings
+title: "dbatools lab dot net interactive Notebooks"
+description: "This extension has a Jupyter Book containing the notebooks to help you explore dbatools in a couple of containers on your own machine"
+author: "RobSewell"
