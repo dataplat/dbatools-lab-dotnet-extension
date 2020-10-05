@@ -10,6 +10,10 @@ on:
   pull_request:
     branches: [ main ]
 
+defaults:
+  run:
+    working-directory: ../../dbatools-lab-dotnet
+    
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -19,7 +23,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      -   working-directory: ../../dbatools-lab-dotnet
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - run: npm install
