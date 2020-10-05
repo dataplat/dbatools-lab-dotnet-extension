@@ -8,11 +8,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
-
-defaults:
-  run:
-    working-directory: ../../dbatools-lab-dotnet
+    branches: [ main ]  
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -28,4 +24,5 @@ jobs:
       - run: npm install
       - uses: lannonbr/vsce-action@master
         with:
+          working-directory: ../../dbatools-lab-dotnet
           args: "package"
